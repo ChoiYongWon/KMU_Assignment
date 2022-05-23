@@ -11,14 +11,14 @@ void func2() {
 	printf("I'm function 2\n");
 }
 
-int g_dbl_value = 20;
+double g_dbl_value = 20;
 
 void main() {
 	int data1 = 10;
 	int data2 = 20;
 	int data3 = data1 * data2;
 
-	int dbl_data = 1.1;
+	double dbl_data = 1.1;
 
 
 	func1();
